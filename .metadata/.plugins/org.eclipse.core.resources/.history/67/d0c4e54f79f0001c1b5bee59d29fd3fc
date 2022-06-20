@@ -1,0 +1,23 @@
+
+public class Basics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// validate if add place API is working as expected
+		
+		
+		// three principles:
+		// 1. given
+		// take all input details
+		
+		// 2. when
+		// submit the API
+		
+		// 3. then
+		// validate the response
+		
+		
+	}
+
+}
