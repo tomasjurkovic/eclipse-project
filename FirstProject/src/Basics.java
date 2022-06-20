@@ -1,4 +1,6 @@
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
@@ -25,13 +27,35 @@ public class Basics {
 		int code = 200;
 		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
-		given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
+		String response = given().log().all()
+			.queryParam("key", "qaclick123").header("Content-Type", "application/json")
 			.body(payload.AddPlace())
 			.when().post("maps/api/place/add/json")
-			.then().log().all()
-			.assertThat().statusCode(code) // check if status code is 200
+			.then().assertThat().statusCode(code) // check if status code is 200
 			.body("scope", equalTo("APP")) // check if scope is "APP"
-			.header("server", "Apache/2.4.41 (Ubuntu)"); // check if server is Apache...
+			.header("server", "Apache/2.4.41 (Ubuntu)") // check if server is Apache...
+			.extract().response().asString();
+		
+		System.out.println(response);
+		
+		JsonPath jp = new JsonPath(response); // for parsing JSon
+		String placeId = jp.getString("place_id");
+		
+		System.out.println(placeId);
+		
+		String responsePut = given().log().all()
+		.queryParam("key", "qaclick123").queryParam("place_id", placeId)
+		.header("Content-Type", "application/json")
+		.body("{\r\n"
+				+ "\"place_id\":\""+placeId+"\",\r\n"
+				+ "\"address\":\"70 winter walk, USA\",\r\n"
+				+ "\"key\":\"qaclick123\"\r\n"
+				+ "}")
+		.when().put("maps/api/place/update/json")
+		.then().assertThat().statusCode(code).body("msg", equalTo("Address successfully updated"))
+		.extract().response().asString();
+		
+		System.out.println(responsePut);
 		
 	}
 
