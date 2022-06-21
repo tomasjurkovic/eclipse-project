@@ -53,19 +53,5 @@ public class ComplexJsonParse {
 				break;
 			}
 		}
-		
-		// get sum of all copies of courses sold (dynamically):
-		int sum = 0;
-		for(int i = 0; i<count; i++) {
-			
-			int courseCopies = js.getInt("courses["+i+"].copies");
-			int coursePrice = js.getInt("courses["+i+"].price");
-			sum = sum + (coursePrice * courseCopies);
-
-		}
-		// verify if sum of price*copies equals to purchase amount:
-		Assert.assertEquals(sum, totalAmount);
-		System.out.println("Total amount is: " + sum);
 	}
-
 }

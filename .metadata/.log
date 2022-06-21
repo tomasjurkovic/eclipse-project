@@ -2258,3 +2258,179 @@ java.io.FileNotFoundException: D:\Projects\eclipse-project\.metadata\.plugins\or
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 13:56:05.494
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:41:03.327
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:41:03.329
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:46:01.453
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:46:01.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:50:16.460
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:50:16.466
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:54:08.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 15:54:08.138
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 15:59:21.938
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.apache-extras.beanshell.bsh,2.0.0.b6 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 15:59:21.939
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.apache-extras.beanshell.bsh.source,2.0.0.b6 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 15:59:22.192
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.google.guava,21.0.0.v20170206-1425 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 15:59:22.828
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.yaml.snakeyaml.source,1.21.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-06-21 15:59:22.829
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.yaml.snakeyaml,1.21.0 have severely compromised security. Please report this concern to the artifact provider.
+!SESSION 2022-06-21 15:59:41.925 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/D:/Projects/eclipse-project/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-06-21 15:59:47.470
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 15:59:47.470
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36638b59,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f8f40cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-21 15:59:47.470
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14d81f2c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dd3727c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 15:59:52.623
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tomas.jurkovic'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2022-06-21 16:00:40.865
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Program Files (x86)\eclipse-java-2022-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\Projects\eclipse-project\FirstProject\target\test-classes D:\Projects\eclipse-project\FirstProject\target\classes C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\tomas.jurkovic\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\tomas.jurkovic\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\tomas.jurkovic\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\tomas.jurkovic\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar C:\Users\tomas.jurkovic\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\tomas.jurkovic\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\tomas.jurkovic\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\tomas.jurkovic\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar C:\Users\tomas.jurkovic\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60503 -protocol json -d D:\Projects\eclipse-project\FirstProject\test-output C:\Users\TOMAS~1.JUR\AppData\Local\Temp\testng-eclipse--995723487\testng-customsuite.xml
+java -ea -classpath C:\Program Files (x86)\eclipse-java-2022-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\Projects\eclipse-project\FirstProject\target\test-classes:D:\Projects\eclipse-project\FirstProject\target\classes:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\tomas.jurkovic\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\tomas.jurkovic\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\tomas.jurkovic\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\tomas.jurkovic\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar:C:\Users\tomas.jurkovic\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\tomas.jurkovic\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\tomas.jurkovic\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\tomas.jurkovic\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar:C:\Users\tomas.jurkovic\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar org.testng.remote.RemoteTestNG -serport 60503 -protocol json -d D:\Projects\eclipse-project\FirstProject\test-output C:\Users\TOMAS~1.JUR\AppData\Local\Temp\testng-eclipse--995723487\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-06-21 16:02:29.186
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files (x86)/eclipse-java-2022-06-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files (x86)/eclipse-java-2022-06-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.addJarsFromBundle(MavenRuntimeClasspathProvider.java:81)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:66)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:1)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1850)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getXMLLSClassPathExtensions(XMLExtensionRegistry.java:81)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getExtensionJarPaths(XMLLanguageServer.java:148)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:83)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:161)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:232)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:05:00.465
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:05:00.469
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:05:01.765
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:05:01.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:05:04.775
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:05:04.777
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-06-21 16:05:08.190
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Program Files (x86)\eclipse-java-2022-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\Projects\eclipse-project\FirstProject\target\test-classes D:\Projects\eclipse-project\FirstProject\target\classes C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\tomas.jurkovic\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\tomas.jurkovic\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\tomas.jurkovic\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar C:\Users\tomas.jurkovic\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\tomas.jurkovic\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar C:\Users\tomas.jurkovic\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\tomas.jurkovic\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\tomas.jurkovic\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar C:\Users\tomas.jurkovic\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\tomas.jurkovic\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\tomas.jurkovic\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60570 -protocol json -d D:\Projects\eclipse-project\FirstProject\test-output C:\Users\TOMAS~1.JUR\AppData\Local\Temp\testng-eclipse-469783429\testng-customsuite.xml
+java -ea -classpath C:\Program Files (x86)\eclipse-java-2022-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\Projects\eclipse-project\FirstProject\target\test-classes:D:\Projects\eclipse-project\FirstProject\target\classes:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\tomas.jurkovic\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\tomas.jurkovic\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\tomas.jurkovic\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar:C:\Users\tomas.jurkovic\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\tomas.jurkovic\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar:C:\Users\tomas.jurkovic\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\tomas.jurkovic\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\tomas.jurkovic\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar:C:\Users\tomas.jurkovic\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\tomas.jurkovic\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\tomas.jurkovic\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar org.testng.remote.RemoteTestNG -serport 60570 -protocol json -d D:\Projects\eclipse-project\FirstProject\test-output C:\Users\TOMAS~1.JUR\AppData\Local\Temp\testng-eclipse-469783429\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:07:38.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 16:07:38.316
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
