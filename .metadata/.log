@@ -1976,3 +1976,9 @@ java.io.FileNotFoundException: D:\Projects\eclipse-project\.metadata\.plugins\or
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 09:05:04.327
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 09:07:11.318
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-21 09:07:11.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

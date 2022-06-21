@@ -62,7 +62,6 @@ public class Basics {
 		// verifying changed place with GET API
 		String responseGet = given().log().all()
 				.queryParam("key", "qaclick123").queryParam("place_id", placeId)
-				.header("Content-Type", "application/json")
 				.body("")
 				.when().get("maps/api/place/get/json")
 				.then().assertThat().statusCode(code)
