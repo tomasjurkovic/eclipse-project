@@ -8,7 +8,7 @@ public class ComplexJsonParse {
 	public static void main(String[] args) {
 
 		JsonPath js = new JsonPath(payload.CoursePrice());
-		int expectedCount = 3;
+		int expectedCount = 4;
 		int expectedAmount = 910;
 		String expectedFirstCourseTitle = "Selenium Python";
 		String expectedSecondCourseTitle = "Cypress";
@@ -41,7 +41,7 @@ public class ComplexJsonParse {
 			System.out.println("Course: " + title +"\nPrice: "  + price + "\n");
 		}
 		
-		// get no. of copies of RPA Course (dynamically):
+		// get no. of coppies of RPA Course (dynamically):
 		for(int i = 0; i<count; i++) {
 			String courseTitle = js.get("courses["+i+"].title");
 
@@ -50,22 +50,8 @@ public class ComplexJsonParse {
 				System.out.println("Print number of coppies of RPA Course: " + rpaCopies);
 				// verify if correct number of copies:
 				Assert.assertEquals(rpaCopies, expectedRpaCopies);
-				break;
 			}
 		}
-		
-		// get sum of all copies of courses sold (dynamically):
-		int sum = 0;
-		for(int i = 0; i<count; i++) {
-			
-			int courseCopies = js.getInt("courses["+i+"].copies");
-			int coursePrice = js.getInt("courses["+i+"].price");
-			sum = sum + (coursePrice * courseCopies);
-
-		}
-		// verify if sum of price*copies equals to purchase amount:
-		Assert.assertEquals(sum, totalAmount);
-		System.out.println("Total amount is: " + sum);
 	}
 
 }

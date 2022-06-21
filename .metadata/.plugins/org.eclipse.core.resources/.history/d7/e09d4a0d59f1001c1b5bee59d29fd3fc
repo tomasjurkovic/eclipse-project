@@ -8,7 +8,7 @@ public class ComplexJsonParse {
 	public static void main(String[] args) {
 
 		JsonPath js = new JsonPath(payload.CoursePrice());
-		int expectedCount = 3;
+		int expectedCount = 4;
 		int expectedAmount = 910;
 		String expectedFirstCourseTitle = "Selenium Python";
 		String expectedSecondCourseTitle = "Cypress";
@@ -65,7 +65,6 @@ public class ComplexJsonParse {
 		}
 		// verify if sum of price*copies equals to purchase amount:
 		Assert.assertEquals(sum, totalAmount);
-		System.out.println("Total amount is: " + sum);
 	}
 
 }
