@@ -11,7 +11,7 @@ public class ComplexJsonParse {
 		int expectedCount = 3;
 		int expectedAmount = 910;
 		String expectedFirstCourseTitle = "Selenium Python";
-		String expectedSecondCourseTitle = "Selenium Python";
+		String expectedSecondCourseTitle = "Cypress";
 		
 		// print number of courses by API (and verify if it is equals 3):
 		int count = js.getInt("courses.size()");
@@ -29,7 +29,7 @@ public class ComplexJsonParse {
 		Assert.assertEquals(firstCourse, expectedFirstCourseTitle);
 
 		// print name of first course by API (and verify if it is equals Selenium Python):
-		String secondCourse = js.getString("courses[0].title");
+		String secondCourse = js.getString("courses[1].title");
 		System.out.println(secondCourse);
 		Assert.assertEquals(secondCourse, expectedSecondCourseTitle);
 
