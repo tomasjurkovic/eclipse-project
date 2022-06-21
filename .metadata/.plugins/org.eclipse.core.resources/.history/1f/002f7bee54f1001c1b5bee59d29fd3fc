@@ -42,11 +42,6 @@ public class payload {
 				+ "      \"title\": \"RPA\",\r\n"
 				+ "      \"price\": 45,\r\n"
 				+ "      \"copies\": 10\r\n"
-				+ "    },\r\n"
-				+ "    {\r\n"
-				+ "      \"title\": \"Bitcoin Billionaire\",\r\n"
-				+ "      \"price\": 495,\r\n"
-				+ "      \"copies\": 1253\r\n"
 				+ "    }\r\n"
 				+ "  ]\r\n"
 				+ "}";

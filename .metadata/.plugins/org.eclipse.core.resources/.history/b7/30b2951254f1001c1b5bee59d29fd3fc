@@ -8,12 +8,12 @@ public class ComplexJsonParse {
 	public static void main(String[] args) {
 
 		JsonPath js = new JsonPath(payload.CoursePrice());
-		int expectedCount = 4;
+		int expectedCount = 3;
 		int expectedAmount = 910;
 		String expectedFirstCourseTitle = "Selenium Python";
 		String expectedSecondCourseTitle = "Cypress";
 		
-		// print number of courses by API (and verify if it is equals 4):
+		// print number of courses by API (and verify if it is equals 3):
 		int count = js.getInt("courses.size()");
 		System.out.println(count);
 		Assert.assertEquals(count, expectedCount);
@@ -37,7 +37,8 @@ public class ComplexJsonParse {
 		for(int i = 0; i<count; i++) {
 			String title = js.get("courses["+i+"].title");
 			int price = js.get("courses["+i+"].price");
-			System.out.println("Course: " + title +"\nPrice: "  + price + "\n");
+			System.out.println(title + price);
+
 		}
 	}
 
