@@ -43,6 +43,8 @@ public class Basics {
 		
 		System.out.println(placeId);
 		
+		// updating place with PUT API 
+		// verifying if address changed correctly
 		String responsePut = given().log().all()
 		.queryParam("key", "qaclick123").queryParam("place_id", placeId)
 		.header("Content-Type", "application/json")
@@ -56,6 +58,18 @@ public class Basics {
 		.extract().response().asString();
 		
 		System.out.println(responsePut);
+		
+		// verifying changed place with GET API
+		String responseGet = given().log().all()
+				.queryParam("key", "qaclick123").queryParam("place_id", placeId)
+				.header("Content-Type", "application/json")
+				.body("")
+				.when().get("maps/api/place/get/json")
+				.then().assertThat().statusCode(code)
+				.body("address", equalTo("70 winter walk, USA")) // check if address correctly changed
+				.extract().response().asString();
+		
+		System.out.println(responseGet);
 		
 	}
 
