@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-22T13:31:17 CEST" name="Default suite" finished-at="2022-06-22T13:31:19 CEST" duration-ms="2207">
+  <suite started-at="2022-06-22T14:14:48 CEST" name="Default suite" finished-at="2022-06-22T14:14:51 CEST" duration-ms="3084">
     <groups>
     </groups>
-    <test started-at="2022-06-22T13:31:17 CEST" name="Default test" finished-at="2022-06-22T13:31:19 CEST" duration-ms="2207">
+    <test started-at="2022-06-22T14:14:48 CEST" name="Default test" finished-at="2022-06-22T14:14:51 CEST" duration-ms="3084">
       <class name="files.DynamicJson">
-        <test-method signature="addBook()[pri:0, instance:files.DynamicJson@156b88f5]" started-at="2022-06-22T13:31:17 CEST" name="addBook" finished-at="2022-06-22T13:31:19 CEST" duration-ms="1745" status="PASS">
+        <test-method signature="addBook()[pri:0, instance:files.DynamicJson@156b88f5]" started-at="2022-06-22T14:14:48 CEST" name="addBook" finished-at="2022-06-22T14:14:50 CEST" duration-ms="2200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-        <test-method signature="deleteBook()[pri:0, instance:files.DynamicJson@156b88f5]" started-at="2022-06-22T13:31:19 CEST" name="deleteBook" finished-at="2022-06-22T13:31:19 CEST" duration-ms="426" status="PASS">
+        <test-method signature="deleteBook()[pri:0, instance:files.DynamicJson@156b88f5]" started-at="2022-06-22T14:14:50 CEST" name="deleteBook" finished-at="2022-06-22T14:14:51 CEST" duration-ms="848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBook -->

@@ -48,12 +48,12 @@ public class payload {
 	}
 	
 	// ISBN and AISLE must be unique, otherwise book already exists
-	public static String Addbook(String isbn, String aisle) {
+	public static String Addbook(String bookName, String isbn, String aisle, String author) {
 		String payload = "{\r\n"
-				+ "    \"name\": \"Learn Automation with Java\",\r\n"
+				+ "    \"name\": \""+bookName+"\",\r\n"
 				+ "    \"isbn\": \""+isbn+"\",\r\n"
 				+ "    \"aisle\": \""+aisle+"\",\r\n"
-				+ "    \"author\": \"TomasJurkovic\"\r\n"
+				+ "    \"author\": \""+author+"\"\r\n"
 				+ "}";
 		
 		return payload;
