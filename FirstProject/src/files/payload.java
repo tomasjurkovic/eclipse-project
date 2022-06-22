@@ -46,5 +46,16 @@ public class payload {
 				+ "  ]\r\n"
 				+ "}";
 	}
+	
+	public static String Addbook() {
+		String payload = "{\r\n"
+				+ "    \"name\": \"Learn Automation with Java\",\r\n"
+				+ "    \"isbn\": \"bed\",\r\n"
+				+ "    \"aisle\": \"1374\",\r\n"
+				+ "    \"author\": \"TomasJurkovic\"\r\n"
+				+ "}";
+		
+		return payload;
+	}
 
 }
