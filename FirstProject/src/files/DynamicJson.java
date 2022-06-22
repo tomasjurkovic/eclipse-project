@@ -1,5 +1,6 @@
 package files;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
@@ -8,11 +9,15 @@ import static io.restassured.RestAssured.*;
 
 public class DynamicJson {
 	
+	String isbn = "tomas";
+	String aisle = "1000";
+	String deleteId = isbn + aisle;
+	
 	@Test
 	public void addBook() {
 		RestAssured.baseURI="http://216.10.245.166";
 		String response = given().log().all().header("Content-Type", "application/json")
-		.body(payload.Addbook())
+		.body(payload.Addbook(isbn, aisle))
 		.when().post("Library/Addbook.php")
 		.then().log().all().statusCode(200)
 		.extract().response().asString();
@@ -23,6 +28,25 @@ public class DynamicJson {
 		String id = jp.getString("ID");
 		
 		System.out.println(id);
+	}
+	
+	@Test
+	public void deleteBook() {
+		RestAssured.baseURI="http://216.10.245.166";
+		String response = given().log().all().header("C.ontent-Type", "application/json")
+		.body(payload.Deletebook(deleteId))
+		.when().post("Library/DeleteBook.php")
+		.then().log().all().statusCode(200)
+		.extract().response().asString();
+
+		// extract id from response:
+		JsonPath jp = ReusableMethods.rawToJson(response);
+		
+		String expectedMessage = "book is successfully deleted";
+		String message = jp.getString("msg");
+		System.out.println(message);
+		Assert.assertEquals(message, expectedMessage);
+		
 	}
 
 }

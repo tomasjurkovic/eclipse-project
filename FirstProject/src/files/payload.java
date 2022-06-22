@@ -47,12 +47,21 @@ public class payload {
 				+ "}";
 	}
 	
-	public static String Addbook() {
+	// ISBN and AISLE must be unique, otherwise book already exists
+	public static String Addbook(String isbn, String aisle) {
 		String payload = "{\r\n"
 				+ "    \"name\": \"Learn Automation with Java\",\r\n"
-				+ "    \"isbn\": \"bed\",\r\n"
-				+ "    \"aisle\": \"1374\",\r\n"
+				+ "    \"isbn\": \""+isbn+"\",\r\n"
+				+ "    \"aisle\": \""+aisle+"\",\r\n"
 				+ "    \"author\": \"TomasJurkovic\"\r\n"
+				+ "}";
+		
+		return payload;
+	}
+	
+	public static String Deletebook(String id) {
+		String payload = "{\r\n"
+				+ "    \"ID\": \""+id+"\"\r\n"
 				+ "}";
 		
 		return payload;
