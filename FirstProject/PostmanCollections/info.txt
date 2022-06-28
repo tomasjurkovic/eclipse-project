@@ -1,0 +1,2 @@
+I will upload here some exercises from course.
+There will be multiple Postman collections for testing exercises.
