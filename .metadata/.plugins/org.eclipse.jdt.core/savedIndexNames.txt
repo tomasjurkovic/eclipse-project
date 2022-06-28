@@ -14,7 +14,6 @@ INDEX VERSION 1.131+D:\Projects\eclipse-project\.metadata\.plugins\org.eclipse.j
 2978421485.index
 3820808578.index
 1865797976.index
-107573622.index
 951271601.index
 798615429.index
 2392994519.index
