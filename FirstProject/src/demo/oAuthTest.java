@@ -49,6 +49,10 @@ String[] courseTitles= { "Selenium Webdriver Java","Cypress","Protractor"};
 	JsonPath js=new JsonPath(accessTokenResponse);
 	String accessToken=js.getString("access_token");
 		
+		
+		
+		
+		
 		GetCourse gc=given().queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)
 		.when()
 		.get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
@@ -82,8 +86,14 @@ String[] courseTitles= { "Selenium Webdriver Java","Cypress","Protractor"};
 		
 		Assert.assertTrue(a.equals(expectedList));
 		
+		
+		
+		
+		
+		
 		//System.out.println(response);
-
+		
+		
 	}
 
 }
